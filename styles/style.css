@@ -8,8 +8,9 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0%;
+  font-weight: normal;
 }
-
+/* Шапка сайта */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -51,11 +52,7 @@
   /* временная отрисовка для понимания границ */
   /* border: 1px solid red; */
 }
-/*
-.logo_place_footer{
 
-}
-*/
 .header__title{
   width: 730px;
 
@@ -125,6 +122,101 @@
   /* временная отрисовка для понимания границ */
   /* border: 1px solid red; */
 }
+
+/* основоной блок */
+
+/* Секция, блок description */
+
+.description{
+  padding: 100px 0px;
+  display: flex;
+
+  justify-content: center;
+  margin: 0;
+  padding: 100px 0px;
+
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid red; */
+}
+
+.two-columns{
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  margin: 0%;
+
+  line-height: 34px;
+  font-size: 24px;
+
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid black; */
+}
+
+.two-columns__brief{
+  width: 175px;
+
+  line-height: 1.2;
+  font-size: 18px;
+
+  font-weight: normal;
+  margin: 0%;
+  color:  #2f80ed;
+
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid red; */
+}
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+
+
+  font-weight: normal;
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid green; */
+}
+
+.two-columns__paragraph{
+  height:fit-content;
+  font-weight: normal;
+  margin: 0;
+  box-sizing: border-box;
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid red; */
+}
+
+.fr{
+  background-color: red;
+}
+
+.sc{
+  background-color: green;
+}
+
+.th{
+  background-color: blue;
+}
+
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid grey; */
+}
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
