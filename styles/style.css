@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0%;
 }
 
 .header {
@@ -15,47 +16,114 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: block;
+  margin: 0%;
+
+  display: flex;
+
+  color: #000000;
+  background-color: #f2f2f2;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 64px;
+
+  box-sizing: border-box;
+
+  /* временная отрисовка для понимания границ */
+  /* border: 1px solid red; */
 }
 
 .logo{
   display: block;
+  width: 228px;
+  height: 32px;
+  margin: 0%;
+
+  z-index: 5;
 }
 
 .logo_place_header{
   position: absolute;
-}
 
+  top: 30px;
+  left: 64px;
+
+  /* временная отрисовка для понимания границ */
+  /* border: 1px solid red; */
+}
+/*
 .logo_place_footer{
 
 }
-
+*/
 .header__title{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+  width: 730px;
+
+  align-self: center;
+
+  font-size: 102px;
+  font-weight: 700;
+
+  z-index: 4;
+
+  /* временная отрисовка для понимания границ и наложености друг на друга */
+  /* border: 1px solid red; */
 }
 
 .header__subtitle{
+  width: 338px;
 
+
+  position: absolute;
+
+  bottom: 30px;
+  left: 64px;
+
+  font-size: 18px;
+  font-weight: normal;
+
+  z-index: 3;
+
+  /* временная отрисовка для понимания границ */
+  /* border: 1px solid red; */
 }
 
 .header__link{
+  text-decoration: none;
 
+  color: #2f80ed;
+  /* временная отрисовка для понимания границ */
+  /* border: 1px solid red; */
 }
 
 .header__main-illustration{
   width: 765px;
   height: 608px;
-}
 
-.header__subtitle{
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
+  z-index: 2;
+
+  /* временная отрисовка для понимания границ */
+  /* border: 1px solid red; */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+
+  background-color: #2f80ed;
+
+  z-index: 1;
+
+  /* временная отрисовка для понимания границ */
+  /* border: 1px solid red; */
 }
 
 /* и элемента с модификатором вида ключ-значение */
