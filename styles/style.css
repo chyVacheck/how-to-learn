@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0%;
   font-weight: normal;
 }
 /* Шапка сайта */
@@ -70,7 +69,6 @@
 .header__subtitle{
   width: 338px;
 
-
   position: absolute;
 
   bottom: 30px;
@@ -119,103 +117,122 @@
 
   z-index: 1;
 
-  /* временная отрисовка для понимания границ */
-  /* border: 1px solid red; */
 }
 
 /* основоной блок */
-
+.content{
+margin: 0%;
+}
 /* Секция, блок description */
 
 .description{
   padding: 100px 0px;
   display: flex;
-
   justify-content: center;
-  margin: 0;
-  padding: 100px 0px;
 
-  /* временная отрисовка для понимания границ и наложености друг на друга */
-  /* border: 1px solid red; */
+  line-height: 34px;
+  font-size: 24px;
+
 }
 
 .two-columns{
   width: 80%;
   min-width: 784px;
   display: flex;
-  margin: 0%;
-
-  line-height: 34px;
-  font-size: 24px;
-
-  flex-flow: row nowrap;
   justify-content: space-between;
-
-  /* временная отрисовка для понимания границ и наложености друг на друга */
-  /* border: 1px solid black; */
 }
 
 .two-columns__brief{
   width: 175px;
 
+  font-weight: normal;
   line-height: 1.2;
   font-size: 18px;
 
-  font-weight: normal;
   margin: 0%;
   color:  #2f80ed;
-
-  /* временная отрисовка для понимания границ и наложености друг на друга */
-  /* border: 1px solid red; */
 }
 
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
-  margin: 0;
-
+  height: 400px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  justify-content: stretch;
-
-
-  font-weight: normal;
-  /* временная отрисовка для понимания границ и наложености друг на друга */
-  /* border: 1px solid green; */
 }
 
 .two-columns__paragraph{
-  height:fit-content;
-  font-weight: normal;
-  margin: 0;
-  box-sizing: border-box;
-  /* временная отрисовка для понимания границ и наложености друг на друга */
-  /* border: 1px solid red; */
-}
-
-.fr{
-  background-color: red;
-}
-
-.sc{
-  background-color: green;
-}
-
-.th{
-  background-color: blue;
+  margin: 0%;
 }
 
 .two-columns__span-accent{
-  line-height: 34px;
-  font-size: 24px;
   font-weight: 700;
-  /* временная отрисовка для понимания границ и наложености друг на друга */
-  /* border: 1px solid grey; */
 }
 
+/* Секция, сблок digits */
+.digits{
+  padding: 100px 0;
+  font-weight: 700;
+  line-height: 1.15;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  /* временно */
+  background-color:cadetblue;
+}
 
+.section-title{
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  justify-content: center;
+  margin: 0;
+  /* временно */
+  background-color: #2f80ed;
+}
 
+.section-subtitle{
+  width: 60%;
+  line-height: 34px;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  /* временно */
+  background-color:cornflowerblue;
+}
 
+.table__cell{
+  width: 1100px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+
+  margin: 0;
+  /* временно */
+  background-color:red;
+}
+
+.table__heading{
+  width: 250px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  /* временно */
+  background-color:red;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  /* временно */
+  background-color:gold;
+}
 
 
 /* и элемента с модификатором вида ключ-значение */
