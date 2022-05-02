@@ -60,6 +60,8 @@
   font-size: 102px;
   font-weight: 700;
 
+  color: #000000;
+
   z-index: 4;
 
   /* временная отрисовка для понимания границ и наложености друг на друга */
@@ -69,13 +71,16 @@
 .header__subtitle{
   width: 338px;
 
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
   position: absolute;
+
+  color: #000000;
 
   bottom: 30px;
   left: 64px;
-
-  font-size: 18px;
-  font-weight: normal;
 
   z-index: 3;
 
@@ -126,7 +131,7 @@ margin: 0%;
 /* Секция, блок description */
 
 .description{
-  padding: 100px 0px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 
@@ -140,6 +145,7 @@ margin: 0%;
   min-width: 784px;
   display: flex;
   justify-content: space-between;
+  color: #000000;
 }
 
 .two-columns__brief{
@@ -173,65 +179,217 @@ margin: 0%;
 /* Секция, сблок digits */
 .digits{
   padding: 100px 0;
-  font-weight: 700;
+
   line-height: 1.15;
   font-size: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-weight: 700;
+
   margin: 0;
+  text-align: center;     /* выравнивание текста в блоках */
+
+  display: flex;          /* делаем все 3 элемента под flex */
+  flex-direction: column; /* распологаем их вертикально */
+  align-items: center;    /* центрируем по горизонтали */
+
+  color: #000000;
   /* временно */
-  background-color:cadetblue;
+  /* background-color:cadetblue; */
 }
 
 .section-title{
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  justify-content: center;
-  margin: 0;
+  width: 60%; /* по брифу */
+  /* height: 100%; */
+
+  /* line-height: 1.15; */  /* у родителя уже стоит 1.15*/
+  font-size: 60px;          /* у родителя 24px стоит */
+  /* font-weight: 700; */   /* у родителя уже стоит 700*/
+
+  margin: 0px 0px 20px 0px;
+
+
+
   /* временно */
-  background-color: #2f80ed;
+  /* background-color: blue; */
 }
 
 .section-subtitle{
-  width: 60%;
-  line-height: 34px;
-  font-size: 60px;
-  font-weight: 700;
+  width: 60%; /* по брифу */
+  /* height: 100%; */
+
+  line-height: 34px;      /* у родителя 24px стоит */
+  font-size: 24px;        /* у родителя уже стоит 24px*/ /* но у h2 приоритет по сравнению с родителем */
+  font-weight: normal;    /* у родителя 700 стоит */
+
   margin: 0;
+
+
   /* временно */
-  background-color:cornflowerblue;
+  /* background-color:blue; */
+}
+
+.table{
+  width: 1100px; /* по брифу */
+  /* height: 100%; */
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+
+  margin: 0;
+  text-align: left; /* по брифу */
+
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  /* временно */
+  /* background-color:green; */
 }
 
 .table__cell{
-  width: 1100px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: normal;
+  width: 250px;
+  height: 100%;
 
-  margin: 0;
+  /* line-height: 1.15; */ /* у родителя уже стоит 1.15*/
+  font-size: 24px;         /* у родителя уже стоит 24px*/
+  font-weight: normal;     /* у родителя 700 стоит */
+
+  margin-top: 60px;
+
   /* временно */
-  background-color:red;
+  /* background-color:red; */
 }
 
 .table__heading{
-  width: 250px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
+  width: 250px; /* по брифу */
+  /* height: 100%; */
+
+  /* line-height: 1.15; *//* у родителя уже стоит 1.15*/
+  font-size: 24px;        /* у родителя уже стоит 24px */ /* но у h3 приоритет по сравнению с родителем */
+  /* font-weight: 700; */ /* у родителя уже стоит 700 */
+
   margin: 0;
+
   /* временно */
-  background-color:red;
+  /* background-color:red; */
 }
 
 .table__text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  width: 250px; /* по брифу */
+  /* height: 100%; */
+
+  line-height: 1.2;   /* у родителя 1.15 стоит */
+  font-size: 18px;    /* у родителя 24px стоит */
+  font-weight: normal;/* у родителя 700  стоит */
+
   margin: 0;
+  margin-top: 20px;
+
   /* временно */
-  background-color:gold;
+  /* background-color:gold; */
+}
+
+/* Секция, сблок feynman */
+
+.feynman{
+  /* width: 100%; */
+  height: 790px;
+  padding-top: 100px;
+  /* 790px высоты блока и 100px padding в сумме дают 890px */
+
+  /* снизу для картинки  */
+  background-repeat: no-repeat;
+  background-image: url('../images/feynman.png');
+  background-size: 867px 637px;
+
+  position: relative;
+  background-position: left bottom;
+  /* сверху для картинки */
+
+  margin: 0;
+
+  display: flex;          /* делаем все 3 элемента под flex */
+  flex-direction: column; /* распологаем их вертикально */
+  align-items: center;    /* центрируем по горизонтали */
+
+  background-color: #f2f2f2;
+  color: #000000;
+  /* временно */
+  /* border: 1px solid rebeccapurple; */
+}
+
+.feynman__title{
+  width:  648px;  /* по брифу */
+
+  line-height: 1.15;/* по брифу */
+  font-size: 120px; /* по брифу */
+  font-weight: 700; /* по брифу */
+
+  margin: 0;
+  text-align: center; /* по брифу */
+}
+
+.feynman__subtitle{
+  padding-top: 70px;  /* для растояния, которое требует бриф */
+
+  line-height: 51px;  /* по брифу */
+  font-size: 36px;    /* по брифу */
+  font-weight: normal;/* по брифу */
+
+  margin: 0;
+}
+
+.feynman__link{
+  text-decoration: none;  /* Убираем все лишнее */
+  position: absolute;
+
+  top: 50%;
+  right: 48px;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  color: #2f80ed;
+
+}
+
+/* Секция, сблок kaufman */
+.kaufman{
+  height: 877px;
+
+  margin: 0;
+  text-align: center;     /* выравнивание текста в блоках */
+
+  display: flex;          /* делаем все 3 элемента под flex */
+  flex-direction: column; /* распологаем их вертикально */
+  align-items: center;    /* центрируем по горизонтали */
+
+
+  padding-bottom: 90px;
+  color:white;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark{
+  width: 60%;
+
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle_theme_dark{
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table_theme_dark{
+
 }
 
 
@@ -241,4 +399,20 @@ margin: 0%;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__heading_theme_dark{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text_theme_dark{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman_triangle{
+
 }
