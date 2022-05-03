@@ -18,6 +18,8 @@
   display: block;
   margin: 0%;
 
+  position: relative; /* родителя */
+
   display: flex;
 
   color: #000000;
@@ -114,7 +116,9 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+
   position: absolute;
+
   top: 64px;
   right: 0;
 
@@ -200,9 +204,9 @@ margin: 0%;
   width: 60%; /* по брифу */
   /* height: 100%; */
 
-  /* line-height: 1.15; */  /* у родителя уже стоит 1.15*/
-  font-size: 60px;          /* у родителя 24px стоит */
-  /* font-weight: 700; */   /* у родителя уже стоит 700*/
+  line-height: 1.15;  /* у родителя 1.15 стоит */
+  font-size: 60px;    /* у родителя 24px стоит */
+  font-weight: 700;   /* у родителя 700  стоит */
 
   margin: 0px 0px 20px 0px;
 
@@ -250,11 +254,10 @@ margin: 0%;
 
 .table__cell{
   width: 250px;
-  height: 100%;
 
-  /* line-height: 1.15; */ /* у родителя уже стоит 1.15*/
-  font-size: 24px;         /* у родителя уже стоит 24px*/
-  font-weight: normal;     /* у родителя 700 стоит */
+  line-height: 1.15;  /* у родителя 1/15 стоит */
+  font-size: 24px;    /* у родителя 24px стоит */
+  font-weight: normal;/* у родителя 700  стоит */
 
   margin-top: 60px;
 
@@ -266,9 +269,9 @@ margin: 0%;
   width: 250px; /* по брифу */
   /* height: 100%; */
 
-  /* line-height: 1.15; *//* у родителя уже стоит 1.15*/
-  font-size: 24px;        /* у родителя уже стоит 24px */ /* но у h3 приоритет по сравнению с родителем */
-  /* font-weight: 700; */ /* у родителя уже стоит 700 */
+  line-height: 1.15;  /* у родителя 1.15 стоит */
+  font-size: 24px;    /* у родителя 24px стоит  */
+  font-weight: 700;   /* у родителя 700  стоит  */
 
   margin: 0;
 
@@ -277,7 +280,7 @@ margin: 0%;
 }
 
 .table__text{
-  width: 250px; /* по брифу */
+  /* width: 250px; по брифу */
   /* height: 100%; */
 
   line-height: 1.2;   /* у родителя 1.15 стоит */
@@ -301,7 +304,7 @@ margin: 0%;
 
   /* снизу для картинки  */
   background-repeat: no-repeat;
-  background-image: url('../images/feynman.png');
+  background-image: url('./../images/feynman.png');
   background-size: 867px 637px;
 
   position: relative;
@@ -358,7 +361,7 @@ margin: 0%;
 
 /* Секция, сблок kaufman */
 .kaufman{
-  height: 877px;
+  /* height: 877px; */
 
   margin: 0;
   text-align: center;     /* выравнивание текста в блоках */
@@ -366,7 +369,8 @@ margin: 0%;
   display: flex;          /* делаем все 3 элемента под flex */
   flex-direction: column; /* распологаем их вертикально */
   align-items: center;    /* центрируем по горизонтали */
-
+  position: relative; /* родителя */
+  overflow: hidden;
 
   padding-bottom: 90px;
   color:white;
@@ -374,24 +378,21 @@ margin: 0%;
 }
 
 .section-title_theme_dark{
-  width: 60%;
-
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
+  color: white;
+  margin: 90px 0px 20px 0px;
 }
 
 .section-subtitle_theme_dark{
-
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+  color: white;
+  margin: 0;
 }
 
 .table_theme_dark{
+  flex-wrap: wrap;
+  color: white;
 
+  z-index: 1;
 }
-
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -402,17 +403,19 @@ margin: 0%;
 }
 
 .table__heading_theme_dark{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
+  color: white;
 }
 
 .table__text_theme_dark{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  color: white;
 }
 
-.kaufman_triangle{
+.kaufman__triangle{
+  width: 877px;
+  height: 877px;
+  background-size: cover;
+  background-image: url(./../images/kaufman-triangle.svg);
 
+  position: absolute; /* абсолют */
+  right: -210px;
 }
