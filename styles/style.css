@@ -36,11 +36,11 @@
 }
 
 .logo{
-  display: block;
+  /* display: block; */
   width: 228px;
   height: 32px;
-  margin: 0%;
 
+  margin: 0;
   z-index: 5;
 }
 
@@ -418,4 +418,138 @@ margin: 0%;
 
   position: absolute; /* абсолют */
   right: -210px;
+}
+
+.footer{
+  min-height: 250px;
+
+  padding-top: 60px;
+  padding-bottom: 40px;
+  /* padding и min-height в сумме дадут 350px, как и требует бриф */
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #1f1f1f;
+  color: white;
+  margin: 0;
+}
+
+.footer__columns{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer__column{
+
+  display: flex;
+  flex-direction: column;
+
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer_content_copyright{
+  flex-basis: 711px;
+
+  justify-content: space-between;
+
+
+  margin: 0;
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.logo_place_header{
+  align-self: flex-start;
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer__author{
+  width: fit-content;
+
+  line-height: 25px;  /* по брифу */
+  font-size: 18px;    /* по брифу */
+  font-weight: normal;/* по брифу */
+
+
+  margin: 18px 0%;
+
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer_content_info{
+
+  margin: 0%;
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer__column-heading{
+
+  line-height: 30px;/* по брифу */
+  font-size: 18px;  /* по брифу */
+  font-weight: 700; /* по брифу */
+
+  padding-bottom: 20px;
+
+  margin: 0%;
+
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer__column-links{
+  text-decoration: none;  /* Убираем все лишнее */
+
+  padding: 0%;
+
+  margin: 0%;
+  margin-bottom: 16px;
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+.footer__column-link{
+  text-decoration: none;  /* Убираем все лишнее */
+  list-style-type: none;
+
+
+  line-height: 30px;  /* по брифу */
+  font-size: 18px;    /* по брифу */
+  font-weight: normal;/* по брифу */
+
+  color: white;
+
+  margin: 0%;
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
+}
+
+/* не пригодился :/
+.footer_content_social{
+
+}
+*/
+
+.footer__social-icon{
+  width: 16px;
+  height: 16px;
+
+  text-decoration: none;  /* Убираем все лишнее */
+  list-style-type: none;
+
+  margin: 0%;
+  margin-right: 10px;
+  /* временно */
+  /* border: 1px solid #f2f2f2; */
 }
