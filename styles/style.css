@@ -58,6 +58,7 @@
 
   align-self: center;
 
+  line-height: 96px; /* исправил*/
   font-size: 102px;
   font-weight: 700;
 
@@ -165,13 +166,13 @@ margin: 0%;
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
-  height: 400px;
   display: flex;
+  gap: 30px;        /* убрал высоту и поставил меж блочное растояние 30px */
   justify-content: space-between;
   flex-direction: column;
 }
 
-.two-columns__paragraph{
+.two-columns__paragraph{ /* не понял зачем псевдоклассы */
   margin: 0%;
 }
 
@@ -297,7 +298,10 @@ margin: 0%;
 
 .feynman{
   /* width: 100%; */
-  height: 790px;
+
+  /* по брифу высота блока 890px и я не думал, что она будет меняться */
+  /* поэтому поставил не min-height, а height */
+  min-height: 790px;
   padding-top: 100px;
   /* 790px высоты блока и 100px padding в сумме дают 890px */
 
@@ -480,7 +484,7 @@ margin: 0%;
   /* border: 1px solid #f2f2f2; */
 }
 
-.footer_content_info{
+.footer__column_content_info{
 
   margin: 0%;
   /* временно */
@@ -503,6 +507,7 @@ margin: 0%;
 
 .footer__column-links{
   text-decoration: none;  /* Убираем все лишнее */
+  list-style-type: none;
 
   padding: 0%;
 
@@ -514,8 +519,7 @@ margin: 0%;
 
 .footer__column-link{
   text-decoration: none;  /* Убираем все лишнее */
-  list-style-type: none;
-
+  /* list-style-type: none перенес в родителя, то есть 'footer__column-links' тег 'ul' */
 
   line-height: 30px;  /* по брифу */
   font-size: 18px;    /* по брифу */
@@ -529,7 +533,7 @@ margin: 0%;
 }
 
 /* не пригодился :/
-.footer_content_social{
+.footer__column_content_social{
 
 }
 */
