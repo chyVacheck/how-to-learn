@@ -1,0 +1,5 @@
+.table_theme_dark{
+  flex-wrap: wrap;
+  color: white;
+  z-index: 1;
+}

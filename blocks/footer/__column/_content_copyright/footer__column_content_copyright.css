@@ -1,0 +1,6 @@
+.footer__column_content_copyright{
+  flex-basis: 711px;
+  /* непонимаю почему, часть ошибок, которые я исправлял, не сохранялись */
+  justify-content: space-between;
+  margin: 0;
+}
