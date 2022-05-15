@@ -1,3 +1,5 @@
+/* большим количеством --- отделены html секции */
+
 @import url(./../blocks/page/page.css); /* подключчаем настройки страницы */
 
 /* подключчаем header и все его элементы */
@@ -10,14 +12,20 @@
 @import url(./../blocks/header/__title/header__title.css);
 @import url(./../blocks/header/__subtitle/header__subtitle.css);
 @import url(./../blocks/header/__link/header__link.css);
+  /* подключчаем link и все его элементы */
+@import url(./../blocks/link/link.css);
+  /* закончили подключчаем link и все его элементы */
 @import url(./../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(./../blocks/header/__square-pic/header_square-pic.css);
+  /* подключчаем link и все его элементы */
+@import url(./../blocks/rotation/rotation.css);
+  /* закончили подключчаем link и все его элементы */
 /* закончили подключчать header и все его элементы */
-
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем content и все его элементы */
 @import url(./../blocks/content/content.css);
 /* закончили подключчать content и все его элементы */
-
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем description и все его элементы */
 @import url(./../blocks/description/description.css);
 @import url(./../blocks/two-columns/two-columns.css);
@@ -26,7 +34,28 @@
 @import url(./../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(./../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* закончили подключчать description и все его элементы */
-
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+/* подключчаем techniques и все его элементы */
+@import url(./../blocks/techniques/techniques.css);
+  /* подключчаем cards и все его элементы */
+@import url(./../blocks/cards/cards.css);
+@import url(./../blocks/cards/__item/cards__item.css);
+@import url(./../blocks/cards/__image/cards__image.css);
+@import url(./../blocks/cards/__title/cards_title.css);
+@import url(./../blocks/cards/__description/cards__description.css);
+  /* закончили подключчать cards и все его элементы */
+/* закончили подключчать techniques и все его элементы */
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+/* подключчаем video и все его элементы */
+@import url(./../blocks/video/video.css);
+@import url(./../blocks/video/__iframes/video__iframes.css);
+@import url(./../blocks/video/__iframe/video__iframe.css);
+/* закончили подключчать video и все его элементы */
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+/* подключчаем oakle и все его элементы */
+@import url(./../blocks/oakley/oakle.css);
+/* закончили подключчать oakle и все его элементы */
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем digits и все, что в нем */
 @import url(./../blocks/digits/digits.css);
   /* подключчаем section-title и все его элементы */
@@ -59,20 +88,19 @@
 
   /* закончили подключчать table и все его элементы */
 /* закончили подключчать digits и все, что в нем */
-
-
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем feynman и все, что в нем */
 @import url(./../blocks/feynman/feynman.css);
 @import url(./../blocks/feynman/__title/feynman__title.css);
 @import url(./../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(./../blocks/feynman/__link/feynman__link.css);
 /* закончили подключчать feynman и все, что в нем */
-
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем kaufnman и все, что в нем */
 @import url(./../blocks/kaufman/kaufman.css);
 @import url(./../blocks/kaufman/__triangle/kaufman__triangle.css);
 /* закончили подключчать kaufnman и все, что в нем */
-
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем footer и все, что в нем */
 @import url(./../blocks/footer/footer.css);
 @import url(./../blocks/footer/__columns/footer__columns.css);
@@ -88,3 +116,4 @@
 @import url(./../blocks/footer/__column-link/footer__column-link.css);
 @import url(./../blocks/footer/__social-icon/footer__social-icon.css);
 /* закончили подключчать footer и все, что в нем */
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */

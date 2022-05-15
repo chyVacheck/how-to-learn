@@ -1,0 +1,11 @@
+.video__iframes{
+  margin: 0% auto;
+  /* padding-top: 50px; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+  top: 50px;
+  /* временно */
+  /* background-color: chartreuse; */
+}

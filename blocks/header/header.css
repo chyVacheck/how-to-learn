@@ -12,4 +12,6 @@
   padding-bottom: 30px;
   padding-left: 64px;
   box-sizing: border-box;
+
+  overflow: hidden; /* что бы крутящийся квадрат не торчал */
 }
