@@ -56,6 +56,13 @@
 @import url(./../blocks/oakley/oakle.css);
 /* закончили подключчать oakle и все его элементы */
 /* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+/* подключчаем feynman и все, что в нем */
+@import url(./../blocks/feynman/feynman.css);
+@import url(./../blocks/feynman/__title/feynman__title.css);
+@import url(./../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(./../blocks/feynman/__link/feynman__link.css);
+/* закончили подключчать feynman и все, что в нем */
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем digits и все, что в нем */
 @import url(./../blocks/digits/digits.css);
   /* подключчаем section-title и все его элементы */
@@ -89,17 +96,30 @@
   /* закончили подключчать table и все его элементы */
 /* закончили подключчать digits и все, что в нем */
 /* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
-/* подключчаем feynman и все, что в нем */
-@import url(./../blocks/feynman/feynman.css);
-@import url(./../blocks/feynman/__title/feynman__title.css);
-@import url(./../blocks/feynman/__subtitle/feynman__subtitle.css);
-@import url(./../blocks/feynman/__link/feynman__link.css);
-/* закончили подключчать feynman и все, что в нем */
+/* подключчаем khan и все, что в нем */
+@import url(./../blocks/khan/khan.css);
+@import url(./../blocks/khan/__container/khan__container.css);
+@import url(./../blocks/khan/__author/khan__author.css);
+@import url(./../blocks/khan/__title/khan__title.css);
+@import url(./../blocks/khan/__quote/khan__quote.css);
+@import url(./../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(./../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(./../blocks/khan/__book-container/khan__book-container.css);
+@import url(./../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(./../blocks/khan/__buy-link/khan__buy-link.css);
+/* закончили подключчать khan и все, что в нем */
 /* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем kaufnman и все, что в нем */
 @import url(./../blocks/kaufman/kaufman.css);
 @import url(./../blocks/kaufman/__triangle/kaufman__triangle.css);
 /* закончили подключчать kaufnman и все, что в нем */
+/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+/* подключчаем resources и все, что в нем */
+@import url(./../blocks/resources/resources.css);
+@import url(./../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(./../blocks/resources/__link/resources__link.css);
+@import url(./../blocks/resources/__logo/resources__logo.css);
+/* закончили подключчать resources и все, что в нем */
 /* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
 /* подключчаем footer и все, что в нем */
 @import url(./../blocks/footer/footer.css);
