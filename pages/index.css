@@ -1,31 +1,30 @@
-/* большим количеством --- отделены html секции */
+@import url(./../vendor/normalize.css);
 
 @import url(./../blocks/page/page.css); /* подключчаем настройки страницы */
 
-/* подключчаем header и все его элементы */
 @import url(./../blocks/header/header.css);
-  /* подключчаем logo и все его элементы */
+
 @import url(./../blocks/logo/logo.css);
 @import url(./../blocks/logo/_place_header/logo_place_header.css);
 @import url(./../blocks/logo/_place_footer/logo_place_footer.css);
-  /* дальше подключчаем header и все его элементы */
+
 @import url(./../blocks/header/__title/header__title.css);
 @import url(./../blocks/header/__subtitle/header__subtitle.css);
 @import url(./../blocks/header/__link/header__link.css);
-  /* подключчаем link и все его элементы */
+
 @import url(./../blocks/link/link.css);
-  /* закончили подключчаем link и все его элементы */
+
 @import url(./../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(./../blocks/header/__square-pic/header_square-pic.css);
-  /* подключчаем link и все его элементы */
+
 @import url(./../blocks/rotation/rotation.css);
-  /* закончили подключчаем link и все его элементы */
-/* закончили подключчать header и все его элементы */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем content и все его элементы */
 @import url(./../blocks/content/content.css);
 /* закончили подключчать content и все его элементы */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем description и все его элементы */
 @import url(./../blocks/description/description.css);
 @import url(./../blocks/two-columns/two-columns.css);
@@ -34,68 +33,65 @@
 @import url(./../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(./../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* закончили подключчать description и все его элементы */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем techniques и все его элементы */
 @import url(./../blocks/techniques/techniques.css);
-  /* подключчаем cards и все его элементы */
+
+@import url(./../blocks/list/list.css);
+
 @import url(./../blocks/cards/cards.css);
 @import url(./../blocks/cards/__item/cards__item.css);
 @import url(./../blocks/cards/__image/cards__image.css);
 @import url(./../blocks/cards/__title/cards_title.css);
 @import url(./../blocks/cards/__description/cards__description.css);
-  /* закончили подключчать cards и все его элементы */
 /* закончили подключчать techniques и все его элементы */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем video и все его элементы */
 @import url(./../blocks/video/video.css);
 @import url(./../blocks/video/__iframes/video__iframes.css);
 @import url(./../blocks/video/__iframe/video__iframe.css);
 /* закончили подключчать video и все его элементы */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
-/* подключчаем oakle и все его элементы */
-@import url(./../blocks/oakley/oakle.css);
-/* закончили подключчать oakle и все его элементы */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
+/* подключчаем oakley и все его элементы */
+@import url(./../blocks/oakley/oakley.css);
+/* закончили подключчать oakley и все его элементы */
+
+
 /* подключчаем feynman и все, что в нем */
 @import url(./../blocks/feynman/feynman.css);
 @import url(./../blocks/feynman/__title/feynman__title.css);
 @import url(./../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(./../blocks/feynman/__link/feynman__link.css);
 /* закончили подключчать feynman и все, что в нем */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем digits и все, что в нем */
 @import url(./../blocks/digits/digits.css);
-  /* подключчаем section-title и все его элементы */
+
 @import url(./../blocks/section-title/section-title.css);
 @import url(./../blocks/section-title/_theme_dark/section-title_theme_dark.css);
-  /* закончили подключчать section-title и все его элементы */
 
-  /* подключчаем section-subtitle и все его элементы */
+
 @import url(./../blocks/section-subtitle/section-subtitle.css);
 @import url(./../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
-  /* закончили подключчать section-subtitle и все его элементы */
 
-  /* подключчаем table и все его элементы */
 @import url(./../blocks/table/table.css);
-@import url(./../blocks/table/_theme_dark/table_theme_dark.css);
-    /* подключчаем __cell и все его элементы */
+@import url(./../blocks/table/_theme/table_theme_dark.css);
+
 @import url(./../blocks/table/__cell/table__cell.css);
 @import url(./../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
-    /* закончили подключчать __cell и все его элементы */
 
-    /* подключчаем __heading и все его элементы */
 @import url(./../blocks/table/__heading/table__heading.css);
 @import url(./../blocks/table/__heading/_theme_dark/table__heading_theme_dark.css);
-    /* закончили подключчать __heading и все его элементы */
 
-    /* подключчаем __text и все его элементы */
 @import url(./../blocks/table/__text/table__text.css);
 @import url(./../blocks/table/__text/_theme_dark/table__text_theme_dark.css);
-    /* закончили подключчать __text и все его элементы */
-
-  /* закончили подключчать table и все его элементы */
 /* закончили подключчать digits и все, что в нем */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем khan и все, что в нем */
 @import url(./../blocks/khan/khan.css);
 @import url(./../blocks/khan/__container/khan__container.css);
@@ -108,32 +104,34 @@
 @import url(./../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(./../blocks/khan/__buy-link/khan__buy-link.css);
 /* закончили подключчать khan и все, что в нем */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем kaufnman и все, что в нем */
 @import url(./../blocks/kaufman/kaufman.css);
 @import url(./../blocks/kaufman/__triangle/kaufman__triangle.css);
 /* закончили подключчать kaufnman и все, что в нем */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем resources и все, что в нем */
 @import url(./../blocks/resources/resources.css);
 @import url(./../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(./../blocks/resources/__link/resources__link.css);
 @import url(./../blocks/resources/__logo/resources__logo.css);
 /* закончили подключчать resources и все, что в нем */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
+
+
 /* подключчаем footer и все, что в нем */
 @import url(./../blocks/footer/footer.css);
 @import url(./../blocks/footer/__columns/footer__columns.css);
-  /* подключчаем __column и все, что в нем */
+
 @import url(./../blocks/footer/__column/footer__column.css);
 @import url(./../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
 @import url(./../blocks/footer/__column/_content_info/footer__column_content_info.css);
 @import url(./../blocks/footer/__column/);
-  /* закончили подключчать __column и все, что в нем */
+
 @import url(./../blocks/footer/__author/footer__author.css);
 @import url(./../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(./../blocks/footer/__column-links/footer__column-links.css);
 @import url(./../blocks/footer/__column-link/footer__column-link.css);
 @import url(./../blocks/footer/__social-icon/footer__social-icon.css);
 /* закончили подключчать footer и все, что в нем */
-/* --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- ---   --- --- --- */
