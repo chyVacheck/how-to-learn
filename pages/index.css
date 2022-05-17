@@ -38,8 +38,6 @@
 /* подключчаем techniques и все его элементы */
 @import url(./../blocks/techniques/techniques.css);
 
-@import url(./../blocks/list/list.css);
-
 @import url(./../blocks/cards/cards.css);
 @import url(./../blocks/cards/__item/cards__item.css);
 @import url(./../blocks/cards/__image/cards__image.css);

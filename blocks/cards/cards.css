@@ -6,4 +6,5 @@
   flex-wrap: wrap;
   padding: 0%;
   gap: 0 100px;
+  list-style-type: none;
 }
